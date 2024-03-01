@@ -45,11 +45,11 @@ library(rgdal)
 
 ## 2 - Définition de l'origine de l'importation    ----
 
-setwd("D:/Mes Donnees/Projets/CGIAR - Mitigate+/Modèle CostKenya")
 "Définir l'emplacement du fichier dans lequel se trouve l'ensemble des rasters"
 emplacementfolder <- "Data/All"
 "Définir la source du fichier dans lequel se trouve l'ensemble des rasters"
 origin <- "Data/All/"
+# Directly upload pre-formated data. In this case, you can skip code up to line 1130
 df2All <- read_excel("Data/df2All.xlsx")
 
 "Possibilité de définir le CRS commun et la résolution pour chaque raster"
